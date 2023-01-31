@@ -1,0 +1,146 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+.logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width:2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url("imagens/boneco.jpg");
+    background-repeat: no-repeat;
+    background-position: 3%;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover {
+    background: darkgrey;
+    transform: scale(1);
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover {
+    background: darkgrey;
+    transform: scale(1);
+} 
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.btn-copiar:hover {
+    background: #e8eef5;
+    transform: scale(1);
+}
+
+.informacao {
+    color: #495057;
+    font-size:18px;
+}
+
+.informacao:hover {
+    background: #eef3f8;
+    transform: scale(1.2);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 20px;
+    background: #d8d8d8;
+    color: #0a3871;
+
+}
+
+.rodape h3 {
+    font-size: 18px;
+
+}
+
+
+.Copyright {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    position: center;
+}
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: #0A3871;
+    position: center;
+}
+
+.icons ion-icon:hover{
+    color: #b6d3f7;
+}

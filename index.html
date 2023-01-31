@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="imagens/logo-ale.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stelysheet" href="reset/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <body>
+        <audio src="./som/destination.mp3" autoplay controls muted loop>
+        <p>Seu Browser não tem suporte a tag audio</p>
+        </audio>
+    </body>
+
+    <header>
+        <img src="./imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="text-area"  cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+               
+                                     
+            <div>
+                <h6 class="informacao"><img src="./imagens/exclamacao.png" alt="logo exclamacao">Apenas letras minúsculas e sem acento.</h6>
+                </div>
+            
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">🔒Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">🔓Descriptografar</button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensagem"  cols="20" rows="10"></textarea>
+            <button class="btn-copiar">🗅Copiar</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="http://github.com/ATSSysteminformation/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="http://www.linkedin.com/in/alexsatecnolog/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="http://www.instagram.com/alexsa.tech/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <p class="Copyright">&copy; Desenvolvido por Alexsandra Tavares - 2023 </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
